@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background: rgb(218, 213, 213);
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(150, 19, 243);
+    color: black;
+    background: transparent;
+    top: 43%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.btn:hover{
+    color: white;
+    background: rgb(150, 19, 243);
+    cursor: pointer;
+    transition: 2s;
+}
+
+.container{
+    display: none;
+    width: 50%;
+    height: 30%;
+    background: rgb(150, 19, 243);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 1em;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.247);
+}
+
+.close{
+    float: right;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+
+.modalContaner{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.modalContaner p{
+    font-size: 20px;
+    margin-top: 10px;
+}
